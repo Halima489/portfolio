@@ -1,16 +1,45 @@
-# React + Vite
+# Personal Portfolio Website
+A clean, modern, and fully responsive personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my skills, featured projects, and a functional contact interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 🚀 Features
+- **Responsive Design:** Fully optimized for all screen sizes (Desktop, Tablet, and Mobile).
+- **Modern UI/UX:** Styled using Tailwind CSS with custom gradient accents and clean layouts.
+- **Interactive Components:** Modular React structure including Hero, About, Skills, and Contact sections.
+- **Fast Performance:** Powered by Vite for fast development and quick loading times.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+ **Frontend:** React.js, JavaScript (ES6+)
+ **Styling:** Tailwind CSS, PostCSS
+ **Build Tool:** Vite
+ **Deployment:** Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 Project Structure
+```text
+portfolio/
+├── public/          # Static assets
+├── src/
+│   ├── assets/      # Images, icons, and media files
+│   ├── components/  # Reusable UI components (Navbar, Hero, About, Skills, Contact)
+│   ├── App.jsx      # Main application component
+│   └── main.jsx     # Entry point
+├── package.json     # Project dependencies
+└── vite.config.js   # Vite configuration
 
-## React Compiler
+💻 Getting Started Locally
+To run this project locally on your machine:
+ * Clone the repository:
+   git clone https://github.com/Halima489/portfolio
+ * Navigate to the project directory:
+   cd portfolio
+ * Install dependencies:
+   npm install
+ * Run the development server:
+   npm run dev
+ * Open http: http://localhost:5173/ in your browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 Live Demo
+Check out the live website: https://6ad8f3965574129b56b9b052--comforting-raindrop-cc28c3.netlify.app   │
+   │                                                                                                     │
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+৪. তারপর **`Commit changes`**-এ ক্লিক করুন!
